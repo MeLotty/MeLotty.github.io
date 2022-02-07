@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Compu-Maths|@MeLotty Mediatech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Home Section -->
+     <section class="header">
+        <nav>
+            <a href="index.html">
+            <img src="images/logo1.png" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="course.html">COURSE</a></li>
+                     <li><a href="blog.html">BLOG</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box"> 
+            <h1>METTYSING ICT SOLUTIONS</h1>
+            <p>Welcome to our website, here we teach you Computer and Mathematics from beginner to advanced.Do you have any problems 
+                in learning Computer skills & Mathematics in this period of Coronavirus pandemic? If yes, then join us on our online classes wherever you are.</p>
+            <a href="contact.html" class="hero-btn">Visit my youtube channel for more</a>
+        </div>
+     </section>
+
+     <!-- Course Section -->
+     <section class="course">
+         <h1>Courses We offer</h1>
+         <p>Computer and Maths lessons.</p>
+         <div class="row">
+             <div class="course-col">
+                <h3>Beginner</h3>
+                <p>Lessons are designed to aim at imparting a basic level appreciation of 
+                    using computers and also do some simple basic arithmetics.</p>
+                </div>
+             <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>At this level students should be able to handle most of computer tasks with less problems microsoft packages.</p>
+
+                </div>
+             <div class="course-col">
+                <h3>Advanced</h3>
+                <p>Students will be introduced to networkig and the internet. Later on, introduce web design and development</p>
+                </div>
+                
+         </div>
+     </section>
+
+<!-- Campus -->
+<section class="campus">
+    <h1>EXPECTATIONS</h1>
+    <p>What to expect as a beginner, intermediate and advanced.<br>Point your cursor on the pictures below to be guided.</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/def.jpeg">
+            <div class="layer">
+                <h3>INTRODUCTION TO COMPUTERS</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/hands.gif">
+            <div class="layer">
+                <h3>HANDS ON MICROSOFT PACKAGE</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/logic.jpg">
+            <div class="layer">
+                <h3> LET'S GET INTO CODING </h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Facilities -->
+<section class="facilities">
+    <h1>AN OVERVIEW OF COMPUTER HARDWARE</h1>
+    <p>In our lessons to be covered we expect most of the hardware shown below to be mentioned.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/h1.jpg">
+            <h3>Computer Hardware</h3>
+            
+            </div>
+        <div class="facilities-col">
+            <img src="images/h2.jpg">
+            <h3>Input Devices</h3>
+            
+            </div>
+        <div class="facilities-col">
+            <img src="images/h3.jpg">
+            <h3>Output Devices</h3>
+            
+            </div>
+            
+    </div>
+</section>
+
+
+
+<!-- Call To Action -->
+ <section class="cta">
+     <h1>Enrol For online Classes</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US </a>
+ </section>
+
+ <!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4> 
+    <p>Tutor: Lotty Singogo.
+        <br>We offer online classes in Computers and Mathematics.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>   
+    <p>Created By: Lotty Singogo</p>
+</section>
+     
+
+
+
+
+
+<!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>    
+</html>

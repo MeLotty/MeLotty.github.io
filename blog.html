@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>CompuMaths|@MeLotty Mediatech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Home Section -->
+     <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png" class="logo" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Online Programs For 2022</h1>
+    </section>
+<!-- Blog Page content -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/s.jpg">
+            <h2> Some Of Our Online Lessons For 2022</h2>
+            <p> Today, many people all over the world use some form of computer every day. Having a general understanding of computers helps you function in today's world.</p>
+            <br>
+            <p>A ccomputer is an electronic device used to input, store, process and output data.</p>
+                <br>
+            <p>Functionalities of the computer.Any digital computer carries out five functions in gross terms:<br> 1. Takes data as input.<br>2. Stores the data/instructions in its memory and use them when required.<br>3. Processes the data and converts it into useful information.<br>4. Generates the output.<br>5.Controls all the above four steps.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea  rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn ">POST COMMENT</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Introduction to Computers</span>
+                <span>Lesson 1</span>
+            </div>
+            <div>
+                <span>Computer Terminologies</span>
+                <span>Lesson 2</span>
+            </div>
+            <div>
+                <span>Computer Parts</span>
+                <span>Lesson 3</span>
+            </div>
+            <div>
+                <span>Main components of the computer</span>
+                <span>Lesson 4</span>
+            </div>
+            <div>
+                <span>Input & output devices</span>
+                <span>Lesson 5</span>
+            </div>
+            <div>
+                <span>Internal parts of the system unit</span>
+                <span> Lesson 6</span>
+            </div>
+            <div>
+                <span>Setting up the Desktop</span>
+                <span> Lesson 7</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+   
+
+
+ <!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4> 
+    <p>Tutor: Lotty Singogo.<br>
+        We offer online classes in Computers and Mathematics.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>   
+    <p>Created By: Lotty Singogo</p>
+</section>
+     
+
+
+
+
+
+<!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>    
+</html>
